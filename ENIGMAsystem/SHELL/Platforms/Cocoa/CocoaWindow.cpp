@@ -316,12 +316,12 @@ namespace enigma
 }
 
 extern void ABORT_ON_ALL_ERRORS();
-void show_error(string err, const bool fatal)
+/*void show_error(string err, const bool fatal)
 {
 	printf("ERROR: %s\n",err.c_str());
 	if (fatal) exit(0);
 	ABORT_ON_ALL_ERRORS();
-}
+}*/
 
 #include <sys/time.h>
 #include <iostream>
